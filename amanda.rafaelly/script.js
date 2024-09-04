@@ -6,70 +6,70 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
+        enunciado: "Como os vendavais estão relacionados às mudanças climáticas?",
         alternativas: [
             {
-                texto: "Isso é assustador!",
+                texto: "A) As mudanças climáticas estão aumentando a intensidade e a frequência dos vendavais, pois o aumento das temperaturas oceânicas contribui para a formação de sistemas meteorológicos mais fortes e extremos.",
                 afirmacao: "afirmação"
             },
             {
-                texto: "Isso é maravilhoso!" ,
-                afirmacao: "afirmação" 
+                texto: "B) Os vendavais são eventos naturais que não são influenciados pelas mudanças climáticas e permanecem constantes ao longo do tempo." ,
+                afirmacao: "errada" 
             }
             
         ]
     },
     {
-        enunciado: "Com a descoberta desta tecnologia, chamada Inteligência Artificial (IA), uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
+        enunciado: "02 - Qual é a relação entre o aumento da temperatura global e a frequência dos vendavais?",
         alternativas: [
             {
-                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
+                texto: "a. O aumento da temperatura global contribui para um maior aquecimento dos oceanos, o que intensifica a formação e a frequência de vendavais e tempestades tropicais. ",
                 afirmacao: "afirmação"
             },
             {
-                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
-                afirmacao: "afirmação"
+                texto: "B) O aumento da temperatura global reduz a frequência dos vendavais, já que o calor excessivo impede a formação de sistemas meteorológicos extremos.",
+                afirmacao: "errada"
             }
         ]
     },
     {
-        pergunta: "Após a elaboração do trabalho, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        pergunta: "Como as mudanças climáticas afetam a previsão e o monitoramento de vendavais?",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
+                texto: "A) As mudanças climáticas tornam a previsão e o monitoramento de vendavais mais desafiadores, pois as condições atmosféricas estão mudando e tornando os padrões climáticos menos previsíveis.",
                 afirmacao: "afirmação"
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
-                afirmacao: "afirmação"
+                texto: "B) As mudanças climáticas simplificam a previsão e o monitoramento de vendavais, pois as condições climáticas se tornam mais estáveis e previsíveis.",
+                afirmacao: "errada"
             }
             
         ]
     },
     {
-        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
+        enunciado: "Qual foi um dos principais efeitos sociais da Primeira Guerra Mundial nas sociedades europeias?",
         alternativas: [
             {
-                texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
+                texto: "A) A Primeira Guerra Mundial causou uma grande mobilização de mulheres para o mercado de trabalho, já que muitos homens estavam na frente de batalha, o que resultou em mudanças significativas nas normas de gênero e no papel das mulheres na sociedade.",
                 afirmacao: "afirmação"
             },
             {
-                texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
-                afirmacao: "afirmação"
+                texto: "B) A guerra levou à estabilização das normas sociais e ao fortalecimento das instituições tradicionais, sem grandes mudanças nas estruturas de gênero ou na mobilidade social.",
+                afirmacao: "errada"
             }
             
             
         ]
     },
     {
-        enunciado: "Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda de uma IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz?",
+        enunciado: "Como a Segunda Guerra Mundial impactou a economia global e o comércio internacinal?",
         alternativas: [
             {
-                texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
-                afirmacao: "afirmação"
+                texto: "A) A Segunda Guerra Mundial causou uma grande destruição das infraestruturas e indústrias, levando a uma recessão global profunda e a uma redução significativa no comércio internacional. ",
+                afirmacao: "errada"
             },
             {
-                texto:"O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
+                texto:"B) A guerra estimulou o crescimento econômico e o comércio internacional, com a reconstrução pós-guerra levando ao desenvolvimento de novas economias e à expansão dos mercados globais.",
                 afirmacao: "afirmação"
             }
         ]
